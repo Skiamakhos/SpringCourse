@@ -12,3 +12,8 @@ it tends to be that I do the thing once, get it sorted & then only look at it ag
 You end up having to look up everything again, and that can restrict your ability to get through technical interviews. The things you have to do repeatedly 
 when you burn out a dozen or so CRUD systems a week are the things you have to do maybe once in 3 years if you're maintaining those systems once the developer 
 who created it has ridden off into the sunset cackling "So long, suckas!"
+
+So in recent days I've set up a Service that calls the Repository's findAll() method for Books, and returns the name of the books view, which directs Spring to
+books.html, a Thymeleaf template that outputs the books in a table.
+
+There was then an exercise to do the same for Authors. 
